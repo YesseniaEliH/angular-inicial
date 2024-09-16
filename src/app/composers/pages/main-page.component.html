@@ -1,0 +1,12 @@
+<h3>Composers Main Page</h3>
+<hr>
+
+<div class="row">
+    <div class="col">
+        <composers-list [characterList]="characters"
+                        (onDeleteId)="onDeleteCharacter($event)"></composers-list>
+    </div>
+    <div class="col">
+        <composers-add (onNewCharacter)="onNewCharacter($event)"></composers-add>
+    </div>
+</div>

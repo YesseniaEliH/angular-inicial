@@ -1,6 +1,4 @@
-# Bases
-
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.8.
+Este repositorio comprende los conceptos iniciales de angular: componentes, módulos, directivas (ngIf, ngFor, ngClass, ngModel), decoradores de clase para componentes (@input, @output), servicios
 
 ## Development server
 
